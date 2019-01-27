@@ -1,0 +1,52 @@
+{
+    "name": "send-sms-to-phone",
+    "version": "0.0.0",
+    "description": "Allow you send sms to US or Canada phone",
+    "homepage": "https://github.com/venikman/send-sms-to-phone",
+    "main": "functions/main.js",
+    "author": {
+        "name": "Stanislau Niadbailau",
+        "url": "https://nedbailov.com",
+        "email": "nedbailov375426@gmail.com"
+    },
+    "scripts": {
+        "test": "xo && ava"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:venikman/send-sms-to-phone.git"
+    },
+    "bugs": {
+        "url": "https://github.com/venikman/send-sms-to-phone/issues",
+        "email": "nedbailov375426@gmail.com"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "license": "MPL-2.0",
+    "files": [
+        "functions/main.js"
+    ],
+    "dependencies": {
+        "envy": "^2.0.0",
+        "lib": "^3.0.2"
+    },
+    "stdlib": {
+        "build": "faaslang",
+        "name": "venikman/sms",
+        "timeout": 10000,
+        "personalize": {
+            "keys": [],
+            "user": []
+        }
+    },
+    "devDependencies": {
+        "ava": "^1.0.1",
+        "eslint-config-tidy": "^0.7.0",
+        "xo": "^0.23.0"
+    },
+    "keywords": [],
+    "xo": {
+        "extend": "tidy"
+    }
+}
