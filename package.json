@@ -32,7 +32,7 @@
     },
     "stdlib": {
         "build": "faaslang",
-        "name": "venikman/sms",
+        "name": "venikman/send-sms-to-phone",
         "timeout": 10000,
         "personalize": {
             "keys": [],
