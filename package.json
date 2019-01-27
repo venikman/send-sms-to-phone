@@ -28,7 +28,6 @@
         "functions/main.js"
     ],
     "dependencies": {
-        "envy": "^2.0.0",
         "lib": "^3.0.2"
     },
     "stdlib": {
